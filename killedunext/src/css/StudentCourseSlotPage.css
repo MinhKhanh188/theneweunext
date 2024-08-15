@@ -1,0 +1,67 @@
+.student-course-slot-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filters label {
+    font-weight: bold;
+}
+
+.filters select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.buttons .learning-materials,
+.buttons .assignments {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buttons .learning-materials:hover,
+.buttons .assignments:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+ul li p {
+    margin: 5px 0;
+}
+
+ul li ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}

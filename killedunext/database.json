@@ -1,0 +1,349 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "schoolID": 176285,
+      "fullname": "Pham Minh Khanh",
+      "email": "khanhph176285@gmail.com",
+      "password": "a",
+      "role": "student"
+    },
+    {
+      "id": "2",
+      "schoolID": 31082003,
+      "fullname": "Vu Anh Thu",
+      "email": "VuAnhThu31082003@gmail.com",
+      "password": "VuAnhThu31082003",
+      "role": "student"
+    },
+    {
+      "id": "3",
+      "schoolID": 157285,
+      "fullname": "Giap Tuan Ha",
+      "email": "GiapTuanHa157285@gmail.com",
+      "password": "a",
+      "role": "student"
+    },
+    {
+      "id": "4",
+      "schoolID": 1762,
+      "fullname": "Nguyen The Hoan",
+      "email": "hoannguyen176285@gmail.com",
+      "password": "a",
+      "role": "teacher"
+    },
+    {
+      "id": "5",
+      "schoolID": 1110,
+      "fullname": "Nguyen Thai Son",
+      "email": "sonnt1110@gmail.com",
+      "password": "a",
+      "role": "teacher"
+    }
+  ],
+  "courses": [
+    {
+      "courseID": 11189,
+      "courseCode": "FER202",
+      "subjectName": "Front-End web development with React",
+      "id": "37da"
+    },
+    {
+      "courseID": 10982,
+      "courseCode": "PRJ301",
+      "subjectName": "Java Web Application",
+      "id": "7b70"
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "ClassID": 1732,
+      "CourseID": 11189,
+      "schoolID": 1762,
+      "semester": "SUMMER2024",
+      "studentIDs": [
+        176285,
+        31082003,
+        157285
+      ]
+    },
+    {
+      "id": "2",
+      "ClassID": 1748,
+      "CourseID": 10982,
+      "schoolID": 1762,
+      "semester": "SUMMER2024",
+      "studentIDs": [
+        176285,
+        157285
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "courseID": 11189,
+      "slots": [
+        {
+          "slotID": 1,
+          "date": "2024-05-07",
+          "startTime": "15:20",
+          "endTime": "17:40",
+          "description": "Course Introduction: Full Stack Web Development: The Big Picture, React 18 Introduction, Git Basics, Node.js and NPM",
+          "topics": [
+            "1. Full Stack Web Development: The Big Picture",
+            "1.2 React 18 Introduction",
+            "1.3 Git Basics",
+            "1.4 Node.js and NPM"
+          ]
+        },
+        {
+          "slotID": 2,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "Rendering with JSX + ES 6",
+          "topics": [
+            "2.1 ES6",
+            "2.2 JSX"
+          ]
+        },
+        {
+          "slotID": 3,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "3.1 Rendering HTML",
+          "topics": [
+            "3.2 Creating your own JSX element",
+            "3.3 Using JavaStript expressions",
+            "3.4 Building fragment of JSX"
+          ]
+        },
+        {
+          "slotID": 4,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "Bootstrap",
+          "topics": [
+            "4.1 Bootstrap Introduction",
+            "- Set up a project with Bootstrap",
+            "4.2 Bootstrap Grid System",
+            "4.3 Bootstrap CSS Component",
+            "- Navbar",
+            "- Icon and Fronts"
+          ]
+        },
+        {
+          "slotID": 5,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "5.1 Bootstrap JavaScript Components ",
+          "topics": [
+            "- Tabs, Pills And Tabbed",
+            "5.2 Hide and Seek: Collapse and Accordion"
+          ]
+        },
+        {
+          "slotID": 6,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "React-bootstrap 7.1",
+          "topics": [
+            "7.1 Introduction React-bootstrap",
+            "7.2 React - Bootstrap Grid System"
+          ]
+        },
+        {
+          "slotID": 7,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "Rendering with JSX + ES 6",
+          "topics": [
+            "ES6",
+            "JSX"
+          ]
+        },
+        {
+          "slotID": 8,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "Rendering with JSX + ES 6",
+          "topics": [
+            "ES6",
+            "JSX"
+          ]
+        },
+        {
+          "slotID": 9,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "Rendering with JSX + ES 6",
+          "topics": [
+            "ES6",
+            "JSX"
+          ]
+        },
+        {
+          "slotID": 10,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "Rendering with JSX + ES 6",
+          "topics": [
+            "ES6",
+            "JSX"
+          ]
+        },
+        {
+          "slotID": 11,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "Rendering with JSX + ES 6",
+          "topics": [
+            "ES6",
+            "JSX"
+          ]
+        }
+      ],
+      "id": "1d13"
+    },
+    {
+      "courseID": 10982,
+      "slots": [
+        {
+          "slotID": 1,
+          "date": "2024-05-07",
+          "startTime": "15:20",
+          "endTime": "17:40",
+          "description": "Course Introduction: Java Basics, Setting up Java Web Application",
+          "topics": [
+            "Java Basics",
+            "Setting up Java Web Application"
+          ]
+        },
+        {
+          "slotID": 2,
+          "date": "2024-05-09",
+          "startTime": "12:50",
+          "endTime": "15:10",
+          "description": "Servlets and JSP",
+          "topics": [
+            "Servlets",
+            "JSP"
+          ]
+        }
+      ],
+      "id": "e822"
+    }
+  ],
+  "courseQuestions": [
+    {
+      "id": "8c8f",
+      "courseID": 11189,
+      "slotID": 1,
+      "question": "What is ReactJS"
+    },
+    {
+      "id": "1aee",
+      "courseID": 11189,
+      "slotID": 2,
+      "question": "What is JSX"
+    },
+    {
+      "id": "cfc7",
+      "courseID": 11189,
+      "slotID": 1,
+      "question": "English or Spanish"
+    },
+    {
+      "id": "52e0",
+      "courseID": 11189,
+      "slotID": 1,
+      "question": "What is JSX?"
+    }
+  ],
+  "answerQuestion": [
+    {
+      "id": "21c7",
+      "questionID": "cfc7",
+      "answer": "English\n",
+      "answeredBy": 176285,
+      "answeredAt": "2024-07-16T07:57:10.050Z"
+    },
+    {
+      "id": "5570",
+      "questionID": "cfc7",
+      "answer": "How ever move first is gay",
+      "answeredBy": 176285,
+      "answeredAt": "2024-07-16T09:20:21.366Z"
+    },
+    {
+      "id": "2233",
+      "questionID": "8c8f",
+      "answer": "react is a cool thing",
+      "answeredBy": 157285,
+      "answeredAt": "2024-07-17T02:17:43.633Z"
+    },
+    {
+      "id": "4202",
+      "questionID": "8c8f",
+      "answer": "React.js is an open-source JavaScript library, crafted with precision by Facebook, that aims to simplify the intricate process of building interactive user interfaces. Imagine a user interface built with React as a collection of components, each responsible for outputting a small, reusable piece of HTML code.",
+      "answeredBy": 176285,
+      "answeredAt": "2024-07-17T03:18:15.080Z"
+    },
+    {
+      "id": "7c1f",
+      "questionID": "cfc7",
+      "answer": "Despite the fact that English turned out to be the most efficient language out of the 7 examined, others came pretty close to it. What's interesting is that the languages which have a lower information rate, tend to be spoken at a way faster rate (especially Spanish, French, and Japanese).",
+      "answeredBy": 176285,
+      "answeredAt": "2024-07-17T03:40:33.527Z"
+    },
+    {
+      "id": "0592",
+      "questionID": "8c8f",
+      "answer": "React is an very cool tool",
+      "answeredBy": 157285,
+      "answeredAt": "2024-07-18T06:23:07.279Z"
+    }
+  ],
+  "studentStartedVotedAnswer": [
+    {
+      "id": "06b4",
+      "answerID": "21c7",
+      "rating": 0
+    },
+    {
+      "id": "c912",
+      "answerID": "5570",
+      "rating": 35
+    },
+    {
+      "id": "a05e",
+      "answerID": "2233",
+      "rating": 10
+    },
+    {
+      "id": "06d6",
+      "answerID": "4202",
+      "rating": 5
+    },
+    {
+      "id": "fb18",
+      "answerID": "7c1f",
+      "rating": 0
+    },
+    {
+      "id": "7ec6",
+      "answerID": "0592",
+      "rating": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "studentID": 176285,
+            "fullname": "Pham Minh Khanh",
+            "email" : "khanhph176285@gmail.com",
+            "password": "khanhph176285",
+            "academicyear": 17
+        },
+        {
+            "id": 2,
+            "studentID": 31082003,
+            "name": "Vu Anh Thu",
+            "email" : "VuAnhThu31082003@gmail",
+            "password": "VuAnhThu31082003",
+            "academicyear": 17
+        }
+    ]
+}

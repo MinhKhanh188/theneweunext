@@ -1,0 +1,112 @@
+/* StudentAnswerQuestion.css */
+
+.student-answer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.form-control {
+    background-color: #383838;
+    border: 1ex solid none;
+    border-top-width: 1.7em;
+    color: #383838;
+    word-wrap: break-word;
+    outline: 7px solid #383838;
+    height: 200px;
+    font-size: 17px;
+    transition: all 1s;
+    max-width: 900px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.answer-form {
+    margin-bottom: 20px;
+}
+
+.answer-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #d8d8d880;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.submit-button,
+.vote-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-button:disabled,
+.vote-button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.vote-button-container {
+    margin-right: 10px;
+}
+
+.star-rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 65px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #ffffff, #d8d8d8);
+    box-shadow: 23px 23px 46px #aba9a9,
+        -23px -23px 46px #ffffff;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    font: bold 1.5em sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.2s;
+
+}
+
+.star.hover,
+.star.selected {
+    color: gold;
+}
+
+.answer-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer-metadata {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.answer-personName {
+    font-weight: bold;
+    font-size: large;
+}
+
+.answer-content {
+    margin: 10px 0;
+    width: 700px;
+}
